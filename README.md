@@ -1,12 +1,12 @@
-# Sentiment-Driven Stock Trading Application
+# 📈: Sentiment-Driven Stock Trading Application 📈:
 ## Overview
 
 The Sentiment-Driven Stock Trading Application is a project that analyzes news headlines related to your choice of stock tickers. By running sentiment analysis on these headlines, the application aims to inform buying and selling decisions for stock holdings based on the sentiment of the news.
 
 ## Features
-- **News Headline Aggregation: Collects and aggregates news headlines for popular stock tickers.
-- **Sentiment Analysis: Utilizes sentiment analysis techniques to evaluate the sentiment (positive, negative, neutral) of each headline.
-- **Trading Signals: Generates buy or sell signals based on the aggregated sentiment scores for each stock ticker.
+- 📰: News Headline Aggregation: Collects and aggregates news headlines for popular stock tickers.
+- 🤖: Sentiment Analysis: Utilizes sentiment analysis techniques to evaluate the sentiment (positive, negative, neutral) of each headline.
+- 💵:Trading Signals: Generates buy or sell signals based on the aggregated sentiment scores for each stock ticker.
 
 ## Installation
 ### Prerequisites
@@ -35,19 +35,21 @@ pip install -r requirements.txt
 
 Before running the application, ensure you configure the necessary API keys and settings. Update the config.py with apporiate keys.
 
-
+```bash
 ALPACA_API_KEY = 'INSERT KEY HERE'
 ALPACA_API_SECRET_KEY = 'INSERT KEY HERE'
 MAIN_WATCHLIST_ID = 'INSERT KEY HERE'
 FINNHUB_API_KEY = "INSERT KEY HERE"
 OPEN_AI_API_KEY = 'INSERT KEY HERE'
+```
 
 ### Running the Application
 
 To start the application, run:
 
+```bash
 python main.py
-
+```
 
 ## Contact
 
